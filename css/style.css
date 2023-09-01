@@ -1,0 +1,113 @@
+body{
+    background-image: url(../kitcheningFlexbox_Base/images/bg-body.png);
+}
+.padre{
+    margin:auto;
+    width: 900px;
+}
+.arriba-derecha{
+    display: flex;
+    justify-content: end;
+}
+.login-registro{
+    text-align: end;
+
+
+}
+.logo{
+    text-align: center;
+}
+
+
+.borde{
+    border-radius: 100px;
+}
+.lista-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 30px 5px;
+}
+
+
+
+
+.lista{
+    color: white;
+    background-color: #666;
+    padding: 10px 50px;
+}
+
+
+
+
+
+
+.contenedor{
+    display: flexbox;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img-banner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.section-articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.parrafo{
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+   
+    justify-content: flex-start;
+}
+.enlace{
+    text-decoration: none;
+    display: flex;
+    padding: 5px 20px;
+    color: #444;
+}
+.lista-footer{
+    list-style: none;
+}
+.footer{
+    border-radius: 20px 20px 0px 0px;
+}
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.ul-footer{
+    padding: 30px;
+    background-color: rgb(200,0,0);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.enlace-footer{
+    padding: 10px;
+    color:  white;
+    border-right: 1px solid white;
+    text-decoration: none;
+
+
+}
